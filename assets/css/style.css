@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 .center {
     text-align: center;
+}
+
+.font {
+    font-family: 'Fredericka the Great', cursive;
 }
 
 /*................................................Level Buttons*/
@@ -28,6 +34,10 @@
     float: right;
 }
 
+#restart-game {
+    float: right;
+}
+
 /*..............................................Slot Styling*/
 
 #game-one {
@@ -43,7 +53,13 @@
 }
 
 .slot {
-    background-color: burlywood;
+    background-color: aquamarine;
     height: 300px;
     border: solid 2px white;
+}
+
+/*.........................................Error Message Styling*/
+
+#error {
+    display: none;
 }
