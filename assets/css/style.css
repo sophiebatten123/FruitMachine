@@ -1,0 +1,49 @@
+.center {
+    text-align: center;
+}
+
+/*................................................Level Buttons*/
+
+.level-button {
+    height: 80px;
+    width: 80px;
+}
+
+#level-one {
+    background-color: green;
+    color: white;
+}
+
+#level-two {
+    background-color: orange;
+    color: white;
+}
+
+#level-three {
+    background-color: red;
+    color: white;
+}
+
+#play-game {
+    float: right;
+}
+
+/*..............................................Slot Styling*/
+
+#game-one {
+    display: none;
+}
+
+#game-two {
+    display: none;
+}
+
+#game-three {
+    display: none;
+}
+
+.slot {
+    background-color: burlywood;
+    height: 300px;
+    border: solid 2px white;
+}
